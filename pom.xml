@@ -50,7 +50,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:svn:https://github.com/Pattriarch/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+        <connection>scm:svn:https://github.com/Pattriarch/sfg-pet-clinic</connection>
+        <developerConnection>scm:svn:hhttps://github.com/Pattriarch/sfg-pet-clinic</developerConnection>
+        <url>https://github.com/Pattriarch/sfg-pet-clinic.git</url>
+    </scm>
 </project>
