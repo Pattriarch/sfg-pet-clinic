@@ -11,4 +11,9 @@ public class IndexController {
 
         return "index"; // Thymeleaf ищет в templates возвращенное значение + .html.
     }
+
+    @RequestMapping("/oups")
+    public String oupsHandler() {
+        return "notimplemented";
+    }
 }
