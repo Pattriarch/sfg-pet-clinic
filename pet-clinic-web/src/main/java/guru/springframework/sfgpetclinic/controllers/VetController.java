@@ -1,6 +1,6 @@
 package guru.springframework.sfgpetclinic.controllers;
 
-import guru.springframework.sfgpetclinic.services.map.VetServiceMap;
+import guru.springframework.sfgpetclinic.services.map.VetMapService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class VetController {
 
-    private final VetServiceMap vetServiceMap;
+    private final VetMapService vetServiceMap;
 
-    public VetController(VetServiceMap vetServiceMap) {
+    public VetController(VetMapService vetServiceMap) {
         this.vetServiceMap = vetServiceMap;
     }
 
